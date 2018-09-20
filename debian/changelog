@@ -1,3 +1,14 @@
+lcms2 (2.6-3ubuntu2.1) xenial-security; urgency=medium
+
+  * SECURITY UPDATE: Denial of service
+    - debian/patches/CVE-2016-10165.patch: fix in src/cmstypes.c.
+    - CVE-2016-10165
+  * SECURITY UPDATE: Integer overflow
+    - debian/patches/CVE-2018-16435.patch: fix in src/cmscgats.c.
+    - CVE-2018-16435
+
+ -- Leonidas S. Barbosa <leo.barbosa@canonical.com>  Thu, 20 Sep 2018 03:43:39 -0300
+
 lcms2 (2.6-3ubuntu2) vivid; urgency=medium
 
   * No change rebuild to get debug symbols on all architectures.

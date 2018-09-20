@@ -5,3 +5,5 @@ sanity-check-profiles-CVE-2014-0459.patch
 fix-unaligned-access.patch
 endianness-verification-fix-powerpc.patch
 byte-order.patch
+CVE-2016-10165.patch
+CVE-2018-16435.patch
